@@ -73,3 +73,5 @@ export LANG=en_US.UTF-8
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+gacm() { git add --all; git commit -m "$*" }
