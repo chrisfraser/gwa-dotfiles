@@ -8,7 +8,7 @@ if test ! $(which brew); then
 fi
 
 # Check that ZSH is in the /etc/shells file
-grep -q -F '/usr/local/bin/zsh' /etc/shells || echo '/usr/local/bin/zsh' >> /etc/shells
+sudo bash -c "grep -q -F '/usr/local/bin/zsh' /etc/shells || echo '/usr/local/bin/zsh' >> /etc/shells"
 
 # Update Homebrew recipes
 brew update
