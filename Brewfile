@@ -27,6 +27,7 @@ brew 'git'
 brew 'hub'
 brew 'tree'
 brew 'trash'
+brew 'macup'
 brew 'wget'
 
 # Development
